@@ -22,8 +22,7 @@
     Credits :<input type="text" th:field="*{credit}" />
     <span th:if="${#fields.hasErrors('credit')}"
           th:errors="*{credit}"></span><br />
-    Cost: <input type="text" th:field="*{cost}" />
-    <span th:if="${#fields.hasErrors('cost')}"></span> <br />
+
     <br />
     <input type="submit" value="Submit" />
 
